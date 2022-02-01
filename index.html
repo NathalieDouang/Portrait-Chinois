@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon portrait Chinois...</title>
+    <!-- Lien qui lie le html au css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icon de l'onglet -->
+    <link rel="shortcut icon" type="image/ico" href="img/woman.ico" />
+    <!-- Lien vers la librairie animation on scroll afin de réaliser un fade in -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Liens des polices d'écriture Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <section>
+            <div class="Header">
+                <h1 class="titre1">Mon portrait Chinois</h1>
+                <h3 class="nom">NATHALIE DOUANG</h3>
+            </div>
+            <!-- La flèche qui va permettre le scroll vers le portrait chinois -->
+            <div class="fleche">
+                <a href="#1"><img src="img/fleche-bas.png" alt=""></a>
+            </div>
+        </section>
+
+
+        <!-- LE CURSEUR -->
+        <div class='cursor' id="cursor"></div>
+        <!-- - -->
+
+
+        <!-- A PROPOS -->
+        <input class="ButtonDuhaut" type="button" value="À PROPOS">
+        <div id="fenetreModale" class="fenetreModale-visible fenetreModale-invisible">
+            <div class="grossebox">
+                <section class="box-apropos">
+                    <div class="close" id="fermetureApropos">&times;</div>
+                    <p class="texte-apropos">Le portrait chinois consiste à décrire votre caractère et vos goûts au
+                        travers d’analogies du type « Si j’étais une couleur, je serais… » « Si j’étais un film, je
+                        serais… ». A la suite de ces analogies nous y ajoutons des explications.
+                        Dans le cadre de mon projet tutoré en BUT MMI “Mon portrait Chinois…” j’ai codé et illustré
+                        l’ensemble de ce site one page.
+                    </p>
+                </section>
+            </div>
+        </div>
+        <!-- - -->
+
+    </header>
+    <!-- - -->
+
+    <!-- BLOC DU PORTRAIT CHINOIS -->
+    <div class="bloc-portrait-chinois" id="1">
+
+
+    </div>
+    <!-- - -->
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- FORMULAIRE -->
+        <section class="sectionFormu">
+            <div class="LeFormulaire">
+                <div class="creer">
+                    <h1>A vous de jouez!</h1>
+                    <p>Créer votre page avec votre analogie personnalisée
+                    </p>
+                    <div class="bouton">
+                        <div class="Boutoncreer">Clique ici!</div>
+                    </div>
+                </div>
+
+                <form method="post" class="blocFormulaire" id="form">
+                    <div class="formulaire">
+                        <a id="boutonFermer">&times;</a>
+                        <h1>Créer votre page web personnalisée</h1>
+                        <div class="champs">
+                            <label>Ajoutez votre mail :</label>
+                            <input type="text" class="MailFormulaire" name="Mail" placeholder="Votre mail :" required>
+
+                            <label>Ajoutez votre analogie :</label>
+                            <input type="text" name="analogie" class="AnalogieFormulaire" placeholder="Si j’étais :"
+                                required>
+
+                            <label>Ajoutez votre valeur d'analogie :</label>
+                            <input type="text" name="valeurAnalogie" class="ValeurAnalogieFormulaire"
+                                placeholder="Je serais :">
+
+                            <label>Ajoutez votre justification :</label>
+                            <input type="text" name="justification" class="justificationFormulaire"
+                                placeholder="Justification :">
+
+                            <div class="BoutonEnvoyer">
+                                <input type="button" value="ENVOYER" id="BoutonEnvoyer">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- - -->
+
+
+        <!-- LES MENTIONS LEGALES -->
+        <div class=sectionMentions>
+            <div class="volet-invisible volet" id="volet">
+                <h1> Mentions Légales</h1>
+
+                <div class="texteMentions">
+                    <p> <strong> Editeur: </strong> Projet réalisé par DOUANG PRASEUTH Nathalie
+                        étudiante en première année
+                        de BUT MMI - Champs sur Marne </p>
+
+                    <p><strong>Affichage : </strong>Ce site n’a pas été conçu pour une résolution d’écran inférieur à 1780px x 720px </p>
+
+                    <p><strong>Illustrations réalisés par : </strong> DOUANG PRASEUTH Nathalie </p>
+
+                    <p><strong>Conception du site & conception graphique réalisés par : </strong>DOUANG PRASEUTH
+                        Nathalie</p>
+
+                    <p><strong>Informations hébergeur :</strong>
+                        Identité : Université Gustave Eiffel
+                        Adresse : 2 rue Albert Einstein, 77420 Champs-sur-Marne, France
+                        Téléphone : +33 (0)1 60 95 75 00
+                        Adresse mail : webmaster@univ-eiffel.fr</p>
+
+                    <p>Conformément à l'article 15 du Règlement général sur la protection des données (RGPD) du 27 avril 2016, vous disposez d'un droit d'accès aux informations vous concernant. Si vous trouvez que ces informations sont incorrectes, l'article 16 du RGPD vous permet de les modifier ou de les supprimer. Dans ce cas, merci de contacter le Directeur de la Communication : com@univ-eiffel.fr.</p>
+
+                    <p> Lors de la consultation du site, des cookies sont déposés sur votre ordinateur, votre mobile ou votre tablette.</p>
+
+                    <p><strong>Modalités de traitement des données à caractère personnel: </strong> <br>
+                        L’utilisation de l’API lors du remplissage du formulaire récupérera les données de l'adresse
+                        courriel rentré et l’adresse IP de l'utilisateur. Ces données seront conservées pendant un an au maximum.
+                        Pour toute question relative à la collecte ou au traitement de vos données personnelles par le site web, vous pouvez contacter le responsable de la protection des données du projet :
+                        philippe.gambette@univ-eiffel.fr.
+                        Les données seront supprimées durant l’été qui suivra de janvier 2022.
+
+                        <p>Les fichiers détenus par l'Université Gustave Eiffel et Philippe Gambette qui comportent des données à caractère personnel ne seront jamais transmis à des tiers et ne feront jamais l'objet d'une commercialisation.</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- - -->
+
+        <!-- LIENS SCRIPT  -->
+
+        <!-- Librairie AOS  -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <!-- Liaison JavaScript -->
+        <script src="script.js"></script>
+        <!-- Initialisation de la librairie AOS  -->
+        <script>
+            AOS.init();
+        </script>
+
+        <!-- - -->
+    </footer>
+    <!-- - -->
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+[{
+        "analogie": "un personnage disney",
+        "valeur": "Mulan",
+        "background": "img/SVG/Mulan.svg",
+        "justification": "Personnage de Disney emblématique, j’ai grandi au côté de ce Disney en m’y référant. Par sa culture asiatique que nous partageons, Mulan est pour moi un emblème synonyme de courage et de détermination. Toute mon enfance, son personnage a été pour moi source d’inspiration.",
+        "num": "1"
+    },
+
+    {
+        "analogie": "une boisson",
+        "valeur": "le thé",
+        "background": "img/SVG/the.svg",
+        "justification": "En plus d'être ma boisson favorite. Le thé représente pour moi la chaleur, le calme, la relaxation, des mots qui me décrivent bien. Il représente aussi les différentes saveurs, amatrices de voyages, ces saveurs sont pour moi synonymes de voyages.",
+        "num": "2"
+    },
+
+    {
+        "analogie": "un pays",
+        "valeur": "le laos",
+        "background": "img/SVG/Laos.svg",
+        "justification": "Le Laos, situé dans l’Asie du sud-est entre la Thaïlande et le Vietnam est mon pays d'origine, il fait donc parti de mon identité. J’ai également grandi avec la culture laotienne. De plus, j'ai eu la chance de pouvoir voyager de nombreuses fois dans ce pays. J'ai conçu mon portrait chinois aux couleurs de ce drapeau.",
+        "num": "3"
+    },
+
+    {
+        "analogie": "un moyen de transport",
+        "valeur": "un avion",
+        "background": "img/SVG/Avion.svg",
+        "justification": "L’avion est le moyen de transport que je préfère, il illustre pour moi le voyage. C’est grâce à l’avion que je peux voyager dans des pays lointains et découvrir de nouveaux pays et cultures. Ce transport me permet donc de m'évader, j’aimerais plus tard voyager dans de divers pays lointains, l’avion est donc presque indispensable.",
+        "num": "4"
+    },
+
+    {
+        "analogie": "un moment de la journée",
+        "valeur": "la nuit",
+        "background": "img/SVG/Nuit.svg",
+        "justification": "La nuit est pour moi un moment de relaxation qui me permet de me concentrer sur moi-même, un moment d’apaisement et de calme. Il représente également la couleur bleue qui est ma couleur favorite. C’est également pour cela que le thème du bleu est représenté ici en plus du rouge asiatique.",
+        "num": "5"
+    },
+
+    {
+        "analogie": "une ville",
+        "valeur": "New York",
+        "background": "img/SVG/NewYork2.svg",
+        "justification": "Depuis toute petite New York est une ville qui m'attire et me fait rêver. J'aimerais y habiter au moins durant une année. De plus, j’ai pu découvrir cette ville 2 fois, dont une où je suis resté près de 3 mois afin de perfectionner mon anglais et découvrir la culture américaine. Ce voyage a été particulièrement marquant pour moi. Un voyage dont je me souviendrais toute ma vie. ",
+        "num": "6"
+    },
+
+    {
+        "analogie": "un animal",
+        "valeur": "un panda",
+        "background": "img/SVG/Panda.svg",
+        "justification": "Le panda est l’animal emblématique de L’Asie! De par mes origines asiatiques, c’est celui qui me représente le mieux. L’animal sait tout comme moi être zen et calme, tout en sachant s’amuser. Il représente aussi la valeur des émotions et l’importance de la patience qui me caractérisent.",
+        "num": "7"
+    }
+]
